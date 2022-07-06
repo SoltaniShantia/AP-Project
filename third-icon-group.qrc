@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/thirdicon">
+        <file>icons8-power-off-button-64.png</file>
+    </qresource>
+</RCC>

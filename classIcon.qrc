@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/classIcon">
+        <file>icons8-class-50.png</file>
+    </qresource>
+</RCC>

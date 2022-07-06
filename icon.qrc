@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>add-user.png</file>
+        <file>icons8-system-information-60.png</file>
+        <file>information.png</file>
+        <file>manage.png</file>
+        <file>message.png</file>
+        <file>profile.png</file>
+        <file>schedule.png</file>
+        <file>upload-mail.png</file>
+    </qresource>
+    <qresource prefix="/third-icon"/>
+</RCC>

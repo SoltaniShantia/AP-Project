@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons8-survey-50.png</file>
+        <file>icons8-view-headline-50.png</file>
+        <file>icons8-web-64.png</file>
+    </qresource>
+</RCC>

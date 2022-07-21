@@ -577,7 +577,7 @@ border-color: rgb(178, 8, 55);</string>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>95</x>
       <y>290</y>
       <width>111</width>
       <height>20</height>
@@ -594,7 +594,7 @@ color: rgb(240, 240, 240);</string>
    <widget class="QLabel" name="label_23">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>90</x>
       <y>350</y>
       <width>121</width>
       <height>20</height>
@@ -611,7 +611,7 @@ color: rgb(240, 240, 240);</string>
    <widget class="QLabel" name="label_24">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>80</x>
       <y>410</y>
       <width>141</width>
       <height>20</height>
@@ -649,7 +649,7 @@ color: rgb(240, 240, 240);</string>
    <property name="geometry">
     <rect>
      <x>310</x>
-     <y>170</y>
+     <y>190</y>
      <width>791</width>
      <height>441</height>
     </rect>
@@ -673,6 +673,57 @@ color: rgb(240, 240, 240);</string>
     </layout>
    </widget>
   </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>160</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Title</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>160</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Message</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>160</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Montserrat&quot;;
+color: rgb(178, 8, 55);</string>
+   </property>
+   <property name="text">
+    <string>Watch More</string>
+   </property>
+  </widget>
   <zorder>label_14</zorder>
   <zorder>label</zorder>
   <zorder>backToMenu</zorder>
@@ -680,12 +731,15 @@ color: rgb(240, 240, 240);</string>
   <zorder>frame_2</zorder>
   <zorder>scrollArea</zorder>
   <zorder>label_9</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_13</zorder>
  </widget>
  <resources>
-  <include location="icon.qrc"/>
-  <include location="arrowIcon.qrc"/>
-  <include location="pictures.qrc"/>
   <include location="term-management-icon.qrc"/>
+  <include location="icon.qrc"/>
+  <include location="pictures.qrc"/>
+  <include location="arrowIcon.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -519,82 +519,6 @@ color: rgb(240, 240, 240);</string>
      <string>Add CLass</string>
     </property>
    </widget>
-   <widget class="QFrame" name="frame_9">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>400</y>
-      <width>41</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(178, 8, 55);
-border-color: rgb(178, 8, 55);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QLabel" name="label_13">
-     <property name="geometry">
-      <rect>
-       <x>5</x>
-       <y>2</y>
-       <width>31</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap resource="icon.qrc">:/icon/information.png</pixmap>
-     </property>
-     <property name="scaledContents">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QLabel" name="label_15">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>400</y>
-      <width>161</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;Montserrat&quot;;
-color: rgb(240, 240, 240);</string>
-    </property>
-    <property name="text">
-     <string>Class Information</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_6">
-    <property name="geometry">
-     <rect>
-      <x>59</x>
-      <y>400</y>
-      <width>161</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;Montserrat&quot;;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <zorder>frame_5</zorder>
    <zorder>frame_6</zorder>
    <zorder>frame_7</zorder>
@@ -611,9 +535,335 @@ color: rgb(240, 240, 240);</string>
    <zorder>frame_15</zorder>
    <zorder>label_21</zorder>
    <zorder>pushButton_7</zorder>
-   <zorder>frame_9</zorder>
-   <zorder>label_15</zorder>
-   <zorder>pushButton_6</zorder>
+  </widget>
+  <widget class="QLabel" name="msgtitle1">
+   <property name="geometry">
+    <rect>
+     <x>332</x>
+     <y>186</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Title</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msg1">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>186</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Message </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="msgbtn1">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>179</y>
+     <width>101</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msg2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>253</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Message </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msgtitle2">
+   <property name="geometry">
+    <rect>
+     <x>332</x>
+     <y>253</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Title</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="msgbtn2">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>246</y>
+     <width>101</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msg3">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>313</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Message </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msgtitle3">
+   <property name="geometry">
+    <rect>
+     <x>332</x>
+     <y>313</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Title</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="msgbtn3">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>313</y>
+     <width>101</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msg4">
+   <property name="geometry">
+    <rect>
+     <x>478</x>
+     <y>380</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Message </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msgtitle4">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>380</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Title</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="msgbtn4">
+   <property name="geometry">
+    <rect>
+     <x>958</x>
+     <y>380</y>
+     <width>101</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msg5">
+   <property name="geometry">
+    <rect>
+     <x>478</x>
+     <y>447</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Message </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msgtitle5">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>447</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Title</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="msgbtn5">
+   <property name="geometry">
+    <rect>
+     <x>958</x>
+     <y>447</y>
+     <width>101</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msg6">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>514</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Message </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msgtitle6">
+   <property name="geometry">
+    <rect>
+     <x>332</x>
+     <y>514</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Title</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="msgbtn6">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>514</y>
+     <width>101</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msgtitle7">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>581</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Title</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="msgbtn7">
+   <property name="geometry">
+    <rect>
+     <x>958</x>
+     <y>581</y>
+     <width>101</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msg7">
+   <property name="geometry">
+    <rect>
+     <x>478</x>
+     <y>581</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="text">
+    <string>Message </string>
+   </property>
   </widget>
   <widget class="QLabel" name="label_14">
    <property name="geometry">
@@ -651,47 +901,333 @@ color: rgb(178, 8, 55);</string>
     <string/>
    </property>
   </widget>
-  <widget class="QScrollArea" name="scrollArea">
+  <widget class="QLabel" name="label_12">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>170</y>
-     <width>791</width>
-     <height>441</height>
+     <x>960</x>
+     <y>183</y>
+     <width>101</width>
+     <height>20</height>
     </rect>
    </property>
-   <property name="widgetResizable">
-    <bool>true</bool>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(178, 8, 55);</string>
    </property>
-   <widget class="QWidget" name="scrollAreaWidgetContents">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>789</width>
-      <height>439</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_3">
-     <item>
-      <layout class="QVBoxLayout" name="verticalLayout_2"/>
-     </item>
-    </layout>
-   </widget>
+   <property name="text">
+    <string>Watch More</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>250</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(178, 8, 55);</string>
+   </property>
+   <property name="text">
+    <string>Watch More</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>317</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(178, 8, 55);</string>
+   </property>
+   <property name="text">
+    <string>Watch More</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>384</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(178, 8, 55);</string>
+   </property>
+   <property name="text">
+    <string>Watch More</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>451</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(178, 8, 55);</string>
+   </property>
+   <property name="text">
+    <string>Watch More</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>518</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(178, 8, 55);</string>
+   </property>
+   <property name="text">
+    <string>Watch More</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>585</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Montserrat&quot;;
+color: rgb(178, 8, 55);</string>
+   </property>
+   <property name="text">
+    <string>Watch More</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_4">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>225</y>
+     <width>731</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(41, 39, 40);
+border-color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_8">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>290</y>
+     <width>731</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(41, 39, 40);
+border-color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_9">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>350</y>
+     <width>731</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(41, 39, 40);
+border-color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_10">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>420</y>
+     <width>731</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(41, 39, 40);
+border-color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_11">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>490</y>
+     <width>731</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(41, 39, 40);
+border-color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_12">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>560</y>
+     <width>731</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(41, 39, 40);
+border-color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_13">
+   <property name="geometry">
+    <rect>
+     <x>935</x>
+     <y>170</y>
+     <width>1</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(41, 39, 40);
+border-color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_14">
+   <property name="geometry">
+    <rect>
+     <x>445</x>
+     <y>170</y>
+     <width>1</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(41, 39, 40);
+border-color: rgb(41, 39, 40);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
   </widget>
   <zorder>frame</zorder>
   <zorder>label</zorder>
   <zorder>frame_2</zorder>
   <zorder>label_9</zorder>
+  <zorder>msgtitle1</zorder>
+  <zorder>msg1</zorder>
+  <zorder>msg2</zorder>
+  <zorder>msgtitle2</zorder>
+  <zorder>msg3</zorder>
+  <zorder>msgtitle3</zorder>
+  <zorder>msg4</zorder>
+  <zorder>msgtitle4</zorder>
+  <zorder>msg5</zorder>
+  <zorder>msgtitle5</zorder>
+  <zorder>msg6</zorder>
+  <zorder>msgtitle6</zorder>
+  <zorder>msgtitle7</zorder>
+  <zorder>msg7</zorder>
   <zorder>label_14</zorder>
   <zorder>backToMenu</zorder>
-  <zorder>scrollArea</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_16</zorder>
+  <zorder>label_17</zorder>
+  <zorder>label_18</zorder>
+  <zorder>label_19</zorder>
+  <zorder>msgbtn6</zorder>
+  <zorder>msgbtn2</zorder>
+  <zorder>msgbtn7</zorder>
+  <zorder>msgbtn3</zorder>
+  <zorder>msgbtn1</zorder>
+  <zorder>msgbtn5</zorder>
+  <zorder>msgbtn4</zorder>
+  <zorder>frame_4</zorder>
+  <zorder>frame_8</zorder>
+  <zorder>frame_9</zorder>
+  <zorder>frame_10</zorder>
+  <zorder>frame_11</zorder>
+  <zorder>frame_12</zorder>
+  <zorder>frame_13</zorder>
+  <zorder>frame_14</zorder>
  </widget>
  <resources>
-  <include location="classIcon.qrc"/>
   <include location="icon.qrc"/>
-  <include location="arrowIcon.qrc"/>
+  <include location="classIcon.qrc"/>
   <include location="pictures.qrc"/>
+  <include location="arrowIcon.qrc"/>
  </resources>
  <connections/>
 </ui>

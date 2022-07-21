@@ -377,155 +377,6 @@ color: rgb(240, 240, 240);</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QFrame" name="frame_8">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>340</y>
-      <width>41</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(178, 8, 55);
-border-color: rgb(178, 8, 55);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QLabel" name="label_25">
-     <property name="geometry">
-      <rect>
-       <x>5</x>
-       <y>2</y>
-       <width>31</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap resource="classIcon.qrc">:/classIcon/icons8-class-50.png</pixmap>
-     </property>
-     <property name="scaledContents">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QPushButton" name="pushButton_7">
-    <property name="geometry">
-     <rect>
-      <x>59</x>
-      <y>340</y>
-      <width>161</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;Montserrat&quot;;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_26">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>350</y>
-      <width>101</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;Montserrat&quot;;
-color: rgb(240, 240, 240);</string>
-    </property>
-    <property name="text">
-     <string>Add CLass</string>
-    </property>
-   </widget>
-   <widget class="QFrame" name="frame_9">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>400</y>
-      <width>41</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(178, 8, 55);
-border-color: rgb(178, 8, 55);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QLabel" name="label_27">
-     <property name="geometry">
-      <rect>
-       <x>5</x>
-       <y>2</y>
-       <width>31</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap resource="icon.qrc">:/icon/information.png</pixmap>
-     </property>
-     <property name="scaledContents">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QLabel" name="label_28">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>400</y>
-      <width>161</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;Montserrat&quot;;
-color: rgb(240, 240, 240);</string>
-    </property>
-    <property name="text">
-     <string>Class Information</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_6">
-    <property name="geometry">
-     <rect>
-      <x>59</x>
-      <y>400</y>
-      <width>161</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;Montserrat&quot;;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <zorder>frame_5</zorder>
    <zorder>frame_6</zorder>
    <zorder>frame_7</zorder>
@@ -539,12 +390,6 @@ color: rgb(240, 240, 240);</string>
    <zorder>pushButton_2</zorder>
    <zorder>pushButton_3</zorder>
    <zorder>pushButton_4</zorder>
-   <zorder>frame_8</zorder>
-   <zorder>label_26</zorder>
-   <zorder>pushButton_7</zorder>
-   <zorder>frame_9</zorder>
-   <zorder>label_28</zorder>
-   <zorder>pushButton_6</zorder>
   </widget>
   <widget class="QLabel" name="label_9">
    <property name="geometry">
@@ -838,7 +683,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     </property>
     <layout class="QGridLayout" name="gridLayout_2">
      <item row="1" column="1">
-      <widget class="QLineEdit" name="lineEdit_2"/>
+      <widget class="QLineEdit" name="newPass"/>
      </item>
      <item row="2" column="0">
       <widget class="QLabel" name="label_22">
@@ -852,7 +697,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QLineEdit" name="lineEdit"/>
+      <widget class="QLineEdit" name="oldPass"/>
      </item>
      <item row="0" column="0">
       <widget class="QLabel" name="label_23">
@@ -877,7 +722,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QLineEdit" name="lineEdit_3"/>
+      <widget class="QLineEdit" name="confirmNewPass"/>
      </item>
     </layout>
    </widget>
@@ -962,9 +807,8 @@ font: 9pt &quot;Montserrat&quot;;</string>
   <zorder>backToMenu</zorder>
  </widget>
  <resources>
-  <include location="classIcon.qrc"/>
-  <include location="icon.qrc"/>
   <include location="arrowIcon.qrc"/>
+  <include location="icon.qrc"/>
   <include location="pictures.qrc"/>
  </resources>
  <connections/>

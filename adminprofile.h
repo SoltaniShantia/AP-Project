@@ -3,6 +3,9 @@
 
 #include <QWidget>
 
+
+#include"adminmainmenu.h"
+
 namespace Ui {
 class AdminProfile;
 }
@@ -12,7 +15,7 @@ class AdminProfile : public QWidget
     Q_OBJECT
 
 public:
-    explicit AdminProfile(QWidget *parent = nullptr);
+    explicit AdminProfile(AdminMainMenu * adminMainMenuMember, QWidget *parent = nullptr);
     ~AdminProfile();
 
 private slots:
@@ -33,14 +36,9 @@ private slots:
 
     void on_pushButton_3_clicked();
 
-    void on_pushButton_2_clicked();
-
-    void on_pushButton_7_clicked();
-
-    void on_pushButton_6_clicked();
-
 private:
     Ui::AdminProfile *ui;
+    AdminMainMenu * mainmenu;
 };
 
 #endif // ADMINPROFILE_H

@@ -19,6 +19,8 @@ public:
 private slots:
     void on_Confirmbtn_clicked();
 
+    void on_backToLogin_clicked();
+
 private:
     Ui::ForgotPassPage *ui;
 };

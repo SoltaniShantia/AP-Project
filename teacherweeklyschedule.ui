@@ -22,7 +22,7 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(240, 240, 240);</string>
   </property>
-  <widget class="QLabel" name="l26">
+  <widget class="QLabel" name="r4c1">
    <property name="geometry">
     <rect>
      <x>570</x>
@@ -39,7 +39,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l14">
+  <widget class="QLabel" name="r2c1">
    <property name="geometry">
     <rect>
      <x>570</x>
@@ -56,7 +56,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l40">
+  <widget class="QLabel" name="r6c3">
    <property name="geometry">
     <rect>
      <x>770</x>
@@ -73,7 +73,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l18">
+  <widget class="QLabel" name="r2c5">
    <property name="geometry">
     <rect>
      <x>970</x>
@@ -90,7 +90,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l32">
+  <widget class="QLabel" name="r5c1">
    <property name="geometry">
     <rect>
      <x>570</x>
@@ -107,7 +107,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l10">
+  <widget class="QLabel" name="r1c3">
    <property name="geometry">
     <rect>
      <x>770</x>
@@ -124,7 +124,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l31">
+  <widget class="QLabel" name="r5c0">
    <property name="geometry">
     <rect>
      <x>470</x>
@@ -141,7 +141,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l1">
+  <widget class="QLabel" name="r0c0">
    <property name="geometry">
     <rect>
      <x>470</x>
@@ -171,7 +171,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l16">
+  <widget class="QLabel" name="r2c3">
    <property name="geometry">
     <rect>
      <x>770</x>
@@ -188,7 +188,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l25">
+  <widget class="QLabel" name="r4c0">
    <property name="geometry">
     <rect>
      <x>470</x>
@@ -205,7 +205,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l5">
+  <widget class="QLabel" name="r0c4">
    <property name="geometry">
     <rect>
      <x>870</x>
@@ -222,7 +222,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l37">
+  <widget class="QLabel" name="r6c0">
    <property name="geometry">
     <rect>
      <x>470</x>
@@ -276,7 +276,7 @@ color: rgb(178, 8, 55);</string>
     <string>Monday</string>
    </property>
   </widget>
-  <widget class="QLabel" name="l19">
+  <widget class="QLabel" name="r3c0">
    <property name="geometry">
     <rect>
      <x>470</x>
@@ -313,7 +313,7 @@ border-color: rgb(41, 39, 40);</string>
     <enum>QFrame::Raised</enum>
    </property>
   </widget>
-  <widget class="QLabel" name="l34">
+  <widget class="QLabel" name="r5c3">
    <property name="geometry">
     <rect>
      <x>770</x>
@@ -330,7 +330,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l29">
+  <widget class="QLabel" name="r4c4">
    <property name="geometry">
     <rect>
      <x>870</x>
@@ -347,7 +347,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l11">
+  <widget class="QLabel" name="r1c4">
    <property name="geometry">
     <rect>
      <x>870</x>
@@ -364,7 +364,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l41">
+  <widget class="QLabel" name="r6c4">
    <property name="geometry">
     <rect>
      <x>870</x>
@@ -398,7 +398,7 @@ color: rgb(178, 8, 55);</string>
     <string>Sunday</string>
    </property>
   </widget>
-  <widget class="QLabel" name="l23">
+  <widget class="QLabel" name="r3c4">
    <property name="geometry">
     <rect>
      <x>870</x>
@@ -474,7 +474,7 @@ border-color: rgb(41, 39, 40);</string>
     <enum>QFrame::Raised</enum>
    </property>
   </widget>
-  <widget class="QLabel" name="l8">
+  <widget class="QLabel" name="r1c1">
    <property name="geometry">
     <rect>
      <x>570</x>
@@ -508,7 +508,7 @@ color: rgb(178, 8, 55);</string>
     <string>Time1</string>
    </property>
   </widget>
-  <widget class="QLabel" name="l27">
+  <widget class="QLabel" name="r4c2">
    <property name="geometry">
     <rect>
      <x>670</x>
@@ -565,7 +565,7 @@ border-color: rgb(41, 39, 40);</string>
     <enum>QFrame::Raised</enum>
    </property>
   </widget>
-  <widget class="QLabel" name="l9">
+  <widget class="QLabel" name="r1c2">
    <property name="geometry">
     <rect>
      <x>670</x>
@@ -582,7 +582,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l20">
+  <widget class="QLabel" name="r3c1">
    <property name="geometry">
     <rect>
      <x>570</x>
@@ -633,7 +633,7 @@ color: rgb(178, 8, 55);</string>
     <string>Tuesday</string>
    </property>
   </widget>
-  <widget class="QLabel" name="l15">
+  <widget class="QLabel" name="r2c2">
    <property name="geometry">
     <rect>
      <x>670</x>
@@ -670,7 +670,7 @@ border-color: rgb(41, 39, 40);</string>
     <enum>QFrame::Raised</enum>
    </property>
   </widget>
-  <widget class="QLabel" name="l36">
+  <widget class="QLabel" name="r5c5">
    <property name="geometry">
     <rect>
      <x>970</x>
@@ -704,7 +704,7 @@ color: rgb(178, 8, 55);</string>
     <string>Friday</string>
    </property>
   </widget>
-  <widget class="QLabel" name="l17">
+  <widget class="QLabel" name="r2c4">
    <property name="geometry">
     <rect>
      <x>870</x>
@@ -738,7 +738,7 @@ color: rgb(178, 8, 55);</string>
     <string>Time5</string>
    </property>
   </widget>
-  <widget class="QLabel" name="l21">
+  <widget class="QLabel" name="r3c2">
    <property name="geometry">
     <rect>
      <x>670</x>
@@ -755,7 +755,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l35">
+  <widget class="QLabel" name="r5c4">
    <property name="geometry">
     <rect>
      <x>870</x>
@@ -829,7 +829,7 @@ color: rgb(178, 8, 55);</string>
     <string>Wednesday</string>
    </property>
   </widget>
-  <widget class="QLabel" name="l2">
+  <widget class="QLabel" name="r0c1">
    <property name="geometry">
     <rect>
      <x>570</x>
@@ -846,7 +846,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l12">
+  <widget class="QLabel" name="r1c5">
    <property name="geometry">
     <rect>
      <x>970</x>
@@ -900,7 +900,7 @@ color: rgb(178, 8, 55);</string>
     <string>Saturday</string>
    </property>
   </widget>
-  <widget class="QLabel" name="l39">
+  <widget class="QLabel" name="r6c2">
    <property name="geometry">
     <rect>
      <x>670</x>
@@ -917,7 +917,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l3">
+  <widget class="QLabel" name="r0c2">
    <property name="geometry">
     <rect>
      <x>670</x>
@@ -934,7 +934,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l30">
+  <widget class="QLabel" name="r4c5">
    <property name="geometry">
     <rect>
      <x>970</x>
@@ -951,7 +951,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l4">
+  <widget class="QLabel" name="r0c3">
    <property name="geometry">
     <rect>
      <x>770</x>
@@ -1106,7 +1106,7 @@ color: rgb(178, 8, 55);</string>
     <string>Time6</string>
    </property>
   </widget>
-  <widget class="QLabel" name="l22">
+  <widget class="QLabel" name="r3c3">
    <property name="geometry">
     <rect>
      <x>770</x>
@@ -1123,7 +1123,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l6">
+  <widget class="QLabel" name="r0c5">
    <property name="geometry">
     <rect>
      <x>970</x>
@@ -1140,7 +1140,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l42">
+  <widget class="QLabel" name="r6c5">
    <property name="geometry">
     <rect>
      <x>970</x>
@@ -1157,7 +1157,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l33">
+  <widget class="QLabel" name="r5c2">
    <property name="geometry">
     <rect>
      <x>670</x>
@@ -1174,7 +1174,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l24">
+  <widget class="QLabel" name="r3c5">
    <property name="geometry">
     <rect>
      <x>970</x>
@@ -1230,7 +1230,7 @@ border-color: rgb(41, 39, 40);</string>
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="l13">
+  <widget class="QLabel" name="r2c0">
    <property name="geometry">
     <rect>
      <x>470</x>
@@ -1267,7 +1267,7 @@ border-color: rgb(41, 39, 40);</string>
     <enum>QFrame::Raised</enum>
    </property>
   </widget>
-  <widget class="QLabel" name="l38">
+  <widget class="QLabel" name="r6c1">
    <property name="geometry">
     <rect>
      <x>570</x>
@@ -1284,7 +1284,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l7">
+  <widget class="QLabel" name="r1c0">
    <property name="geometry">
     <rect>
      <x>470</x>
@@ -1301,7 +1301,7 @@ font: 9pt &quot;Montserrat&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="l28">
+  <widget class="QLabel" name="r4c3">
    <property name="geometry">
     <rect>
      <x>770</x>
@@ -1845,58 +1845,71 @@ color: rgb(240, 240, 240);</string>
    <zorder>pushButton_12</zorder>
    <zorder>pushButton_10</zorder>
   </widget>
-  <zorder>l26</zorder>
-  <zorder>l14</zorder>
-  <zorder>l40</zorder>
-  <zorder>l18</zorder>
-  <zorder>l32</zorder>
-  <zorder>l10</zorder>
-  <zorder>l31</zorder>
-  <zorder>l1</zorder>
-  <zorder>l16</zorder>
-  <zorder>l25</zorder>
-  <zorder>l5</zorder>
-  <zorder>l37</zorder>
+  <widget class="QPushButton" name="refreshButton">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>70</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </widget>
+  <zorder>r4c1</zorder>
+  <zorder>r2c1</zorder>
+  <zorder>r6c3</zorder>
+  <zorder>r2c5</zorder>
+  <zorder>r5c1</zorder>
+  <zorder>r1c3</zorder>
+  <zorder>r5c0</zorder>
+  <zorder>r0c0</zorder>
+  <zorder>r2c3</zorder>
+  <zorder>r4c0</zorder>
+  <zorder>r0c4</zorder>
+  <zorder>r6c0</zorder>
   <zorder>frame_15</zorder>
   <zorder>Monday</zorder>
-  <zorder>l19</zorder>
+  <zorder>r3c0</zorder>
   <zorder>frame_16</zorder>
-  <zorder>l34</zorder>
-  <zorder>l29</zorder>
-  <zorder>l11</zorder>
-  <zorder>l41</zorder>
+  <zorder>r5c3</zorder>
+  <zorder>r4c4</zorder>
+  <zorder>r1c4</zorder>
+  <zorder>r6c4</zorder>
   <zorder>Sunday</zorder>
-  <zorder>l23</zorder>
+  <zorder>r3c4</zorder>
   <zorder>Time4</zorder>
   <zorder>frame_11</zorder>
-  <zorder>l8</zorder>
+  <zorder>r1c1</zorder>
   <zorder>Time1</zorder>
-  <zorder>l27</zorder>
+  <zorder>r4c2</zorder>
   <zorder>frame</zorder>
   <zorder>frame_17</zorder>
-  <zorder>l9</zorder>
-  <zorder>l20</zorder>
+  <zorder>r1c2</zorder>
+  <zorder>r3c1</zorder>
   <zorder>Time2</zorder>
   <zorder>Tuesday</zorder>
-  <zorder>l15</zorder>
+  <zorder>r2c2</zorder>
   <zorder>frame_8</zorder>
-  <zorder>l36</zorder>
+  <zorder>r5c5</zorder>
   <zorder>Friday</zorder>
-  <zorder>l17</zorder>
+  <zorder>r2c4</zorder>
   <zorder>Time5</zorder>
-  <zorder>l21</zorder>
-  <zorder>l35</zorder>
+  <zorder>r3c2</zorder>
+  <zorder>r5c4</zorder>
   <zorder>frame_12</zorder>
   <zorder>frame_13</zorder>
   <zorder>Wednesday</zorder>
-  <zorder>l2</zorder>
-  <zorder>l12</zorder>
+  <zorder>r0c1</zorder>
+  <zorder>r1c5</zorder>
   <zorder>frame_9</zorder>
   <zorder>Saturday</zorder>
-  <zorder>l39</zorder>
-  <zorder>l3</zorder>
-  <zorder>l30</zorder>
-  <zorder>l4</zorder>
+  <zorder>r6c2</zorder>
+  <zorder>r0c2</zorder>
+  <zorder>r4c5</zorder>
+  <zorder>r0c3</zorder>
   <zorder>Thursday</zorder>
   <zorder>frame_18</zorder>
   <zorder>frame_19</zorder>
@@ -1904,26 +1917,27 @@ color: rgb(240, 240, 240);</string>
   <zorder>Time3</zorder>
   <zorder>frame_14</zorder>
   <zorder>Time6</zorder>
-  <zorder>l22</zorder>
-  <zorder>l6</zorder>
-  <zorder>l42</zorder>
-  <zorder>l33</zorder>
-  <zorder>l24</zorder>
+  <zorder>r3c3</zorder>
+  <zorder>r0c5</zorder>
+  <zorder>r6c5</zorder>
+  <zorder>r5c2</zorder>
+  <zorder>r3c5</zorder>
   <zorder>frame_4</zorder>
   <zorder>label_16</zorder>
-  <zorder>l13</zorder>
+  <zorder>r2c0</zorder>
   <zorder>frame_10</zorder>
-  <zorder>l38</zorder>
-  <zorder>l7</zorder>
-  <zorder>l28</zorder>
+  <zorder>r6c1</zorder>
+  <zorder>r1c0</zorder>
+  <zorder>r4c3</zorder>
   <zorder>label_9</zorder>
   <zorder>backToMenu</zorder>
   <zorder>frame_2</zorder>
+  <zorder>refreshButton</zorder>
  </widget>
  <resources>
   <include location="pictures.qrc"/>
-  <include location="arrowIcon.qrc"/>
   <include location="icon.qrc"/>
+  <include location="arrowIcon.qrc"/>
   <include location="second-icon.qrc"/>
  </resources>
  <connections/>

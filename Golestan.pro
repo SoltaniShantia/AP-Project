@@ -9,86 +9,139 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    adminaddclass.cpp \
-    adminaddpeople.cpp \
+    StudentWeeklyCalendar.cpp \
+    teacherstudentsetscore.cpp \
+    teacherclasssetscore.cpp \
+    studentenrolment.cpp \
+    studentteachersurvey.cpp \
+    studentterms.cpp \
+    studenttermscores.cpp \
+    studentwatchsurvey.cpp \
+    Notification.cpp \
     adminclassinfo.cpp \
-    adminmainmenu.cpp \
-    adminmessages.cpp \
-    adminprofile.cpp \
-    adminsendassertion.cpp \
-    adminwatchmessagecomplitly.cpp \
     adminwatchstudent.cpp \
+    teacherclassinfo.cpp \
+    teacherwatchstudent.cpp \
+    Md5Hash.cpp \
+    adminaddclass.cpp \
+    adminmessages.cpp \
+    adminwatchmessagecomplitly.cpp \
+    teacherwatchmessagecomplitly.cpp \
+    teacherweeklyschedule.cpp \
+    studentmessages.cpp \
+    studentwatchmessagecomplitly.cpp \
+    teachermessages.cpp \
+    studentweeklyschedule.cpp \
+    CalendarCreator.cpp \
+    Class.cpp \
+    Enum.cpp \
+    Poll.cpp \
+    UserType.cpp \
+    adminaddpeople.cpp \
+    adminsendassertion.cpp \
+    teachersendassertion.cpp \
+    Auth.cpp \
+    Filemanager.cpp \
+    Permission.cpp \
+    TeacherWeeklyCalendar.cpp \
+    WeeklyCalendar.cpp \
+    adminprofile.cpp \
+    User.cpp \
+    adminmainmenu.cpp \
     enterenewpass.cpp \
     forgotpasspage.cpp \
     loginpage.cpp \
     main.cpp \
+    dist/jsoncpp.cpp \
     studentmainmenu.cpp \
-    studentmessages.cpp \
     studentprofile.cpp \
-    studentwatchmessagecomplitly.cpp \
-    studentweeklyschedule.cpp \
-    teacherclassinfo.cpp \
     teachermainmenu.cpp \
-    teachermessages.cpp \
     teacherprofile.cpp \
-    teachersendassertion.cpp \
-    teacherwatchmessagecomplitly.cpp \
-    teacherwatchstudent.cpp \
-    teacherweeklyschedule.cpp
 
 HEADERS += \
-    adminaddclass.h \
-    adminaddpeople.h \
+    StudentWeeklyCalendar.h \
+    teacherstudentsetscore.h \
+    teacherclasssetscore.h \
+    studentenrolment.h \
+    studentteachersurvey.h \
+    studentterms.h \
+    studenttermscores.h \
+    studentwatchsurvey.h \
+    Notification.h \
     adminclassinfo.h \
-    adminmainmenu.h \
-    adminmessages.h \
-    adminprofile.h \
-    adminsendassertion.h \
-    adminwatchmessagecomplitly.h \
     adminwatchstudent.h \
+    teacherclassinfo.h \
+    teacherwatchstudent.h \
+    Md5Hash.h \
+    adminaddclass.h \
+    adminmessages.h \
+    adminwatchmessagecomplitly.h \
+    teacherweeklyschedule.h \
+    teacherwatchmessagecomplitly.h \
+    studentmessages.h \
+    studentwatchmessagecomplitly.h \
+    studentweeklyschedule.h \
+    studentmessages.h \
+    teachermessages.h \
+    CalendarCreator.h \
+    Class.h \
+    Enum.h \
+    Poll.h \
+    UserType.h \
+    adminaddpeople.h \
+    adminsendassertion.h \
+    teachersendassertion.h \
+    Auth.h \
+    Filemanager.h \
+    Permission.h \
+    TeacherWeeklyCalendar.h \
+    WeeklyCalendar.h \
+    adminprofile.h \
+    User.h \
+    adminmainmenu.h \
     enterenewpass.h \
     forgotpasspage.h \
     loginpage.h \
+    dist/json/json.h \
+    dist/json/json-forwards.h \
     studentmainmenu.h \
-    studentmessages.h \
     studentprofile.h \
-    studentwatchmessagecomplitly.h \
-    studentweeklyschedule.h \
-    teacherclassinfo.h \
     teachermainmenu.h \
-    teachermessages.h \
-    teacherprofile.h \
-    teachersendassertion.h \
-    teacherwatchmessagecomplitly.h \
-    teacherwatchstudent.h \
-    teacherweeklyschedule.h
+    teacherprofile.h
 
 FORMS += \
-    adminaddclass.ui \
-    adminaddpeople.ui \
+    teacherstudentsetscore.ui \
+    teacherclasssetscore.ui \
+    studentenrolment.ui \
+    studentteachersurvey.ui \
+    studentterms.ui \
+    studenttermscores.ui \
+    studentwatchsurvey.ui \
     adminclassinfo.ui \
-    adminmainmenu.ui \
-    adminmessages.ui \
-    adminprofile.ui \
-    adminsendassertion.ui \
-    adminwatchmessagecomplitly.ui \
     adminwatchstudent.ui \
+    teacherclassinfo.ui \
+    teacherwatchstudent.ui \
+    adminaddclass.ui \
+    adminmessages.ui \
+    adminwatchmessagecomplitly.ui \
+    teacherwatchmessagecomplitly.ui \
+    teacherweeklyschedule.ui \
+    studentwatchmessagecomplitly.ui \
+    studentweeklyschedule.ui \
+    studentmessages.ui \
+    teachermessages.ui \
+    adminaddpeople.ui \
+    adminsendassertion.ui \
+    teachersendassertion.ui \
+    adminmainmenu.ui \
+    adminprofile.ui \
     enterenewpass.ui \
     forgotpasspage.ui \
     loginpage.ui \
     studentmainmenu.ui \
-    studentmessages.ui \
     studentprofile.ui \
-    studentwatchmessagecomplitly.ui \
-    studentweeklyschedule.ui \
-    teacherclassinfo.ui \
     teachermainmenu.ui \
-    teachermessages.ui \
-    teacherprofile.ui \
-    teachersendassertion.ui \
-    teacherwatchmessagecomplitly.ui \
-    teacherwatchstudent.ui \
-    teacherweeklyschedule.ui
+    teacherprofile.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -102,7 +155,8 @@ RESOURCES += \
     pictures.qrc \
     second-icon.qrc \
     term-management-icon.qrc \
-    third-icon-group.qrc
+    third-icon-group.qrc \
+    endIcon.qrc
 
 DISTFILES += \
     scorecard.png

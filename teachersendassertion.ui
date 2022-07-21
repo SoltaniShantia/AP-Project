@@ -747,6 +747,31 @@ color: rgb(41, 39, 40);</string>
       <height>28</height>
      </rect>
     </property>
+    <item>
+     <property name="text">
+      <string>PHYSICS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CHEMISTRY</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CALCULUS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DISCRETE</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BASIC PROGRAMMING</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QPushButton" name="backToMenu">
@@ -790,10 +815,10 @@ color: rgb(41, 39, 40);</string>
   <zorder>backToMenu</zorder>
  </widget>
  <resources>
-  <include location="pictures.qrc"/>
-  <include location="arrowIcon.qrc"/>
   <include location="icon.qrc"/>
+  <include location="pictures.qrc"/>
   <include location="second-icon.qrc"/>
+  <include location="arrowIcon.qrc"/>
  </resources>
  <connections/>
 </ui>

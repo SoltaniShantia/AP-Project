@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/endIcon">
+        <file>icons8-end-button-50.png</file>
+    </qresource>
+</RCC>

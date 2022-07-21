@@ -4,6 +4,8 @@
 #include <QWidget>
 #include <QGroupBox>
 
+#include"adminmainmenu.h"
+
 namespace Ui {
 class AdminClassInfo;
 }
@@ -13,11 +15,11 @@ class AdminClassInfo : public QWidget
     Q_OBJECT
 
 public:
-    explicit AdminClassInfo(QWidget *parent = nullptr);
+    explicit AdminClassInfo(AdminMainMenu * member , QWidget *parent = nullptr);
     ~AdminClassInfo();
 
 public slots:
-    QGroupBox* watchClass();
+    QGroupBox* watchClass(QString teacherUsername , QString lesson);
 private slots:
     void on_backToMenu_clicked();
 
@@ -34,7 +36,9 @@ private slots:
 private:
     Ui::AdminClassInfo *ui;
 
-    void goToClassInfo(QString className);
+    void goToClassInfo(Class classToShow);
+
+    AdminMainMenu * mainmenu;
 };
 
 #endif // ADMINCLASSINFO_H

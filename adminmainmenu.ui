@@ -78,7 +78,7 @@ border-color: rgb(41, 39, 40);</string>
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
       <x>59</x>
@@ -95,28 +95,11 @@ border-color: rgb(41, 39, 40);</string>
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>59</x>
-      <y>220</y>
-      <width>161</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;Montserrat&quot;;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
       <x>59</x>
-      <y>280</y>
+      <y>220</y>
       <width>161</width>
       <height>35</height>
      </rect>
@@ -171,53 +154,11 @@ border-color: rgb(178, 8, 55);</string>
      </property>
     </widget>
    </widget>
-   <widget class="QFrame" name="frame_5">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>160</y>
-      <width>41</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>ArrowCursor</cursorShape>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(178, 8, 55);
-border-color: rgb(178, 8, 55);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QLabel" name="label_10">
-     <property name="geometry">
-      <rect>
-       <x>5</x>
-       <y>2</y>
-       <width>31</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap resource="icon.qrc">:/icon/message.png</pixmap>
-     </property>
-     <property name="scaledContents">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </widget>
    <widget class="QFrame" name="frame_6">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>220</y>
+      <y>160</y>
       <width>41</width>
       <height>35</height>
      </rect>
@@ -256,7 +197,7 @@ border-color: rgb(178, 8, 55);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>280</y>
+      <y>220</y>
       <width>41</width>
       <height>35</height>
      </rect>
@@ -337,31 +278,11 @@ color: rgb(240, 240, 240);</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>160</y>
-      <width>101</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;Montserrat&quot;;
-color: rgb(240, 240, 240);</string>
-    </property>
-    <property name="text">
-     <string>Messges</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>220</y>
+      <y>160</y>
       <width>111</width>
       <height>30</height>
      </rect>
@@ -381,7 +302,7 @@ color: rgb(240, 240, 240);</string>
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>280</y>
+      <y>220</y>
       <width>141</width>
       <height>30</height>
      </rect>
@@ -436,7 +357,7 @@ color: rgb(240, 240, 240);</string>
     <property name="geometry">
      <rect>
       <x>59</x>
-      <y>340</y>
+      <y>280</y>
       <width>161</width>
       <height>35</height>
      </rect>
@@ -453,7 +374,7 @@ color: rgb(240, 240, 240);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>340</y>
+      <y>280</y>
       <width>41</width>
       <height>35</height>
      </rect>
@@ -491,8 +412,8 @@ border-color: rgb(178, 8, 55);</string>
    <widget class="QLabel" name="label_18">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>350</y>
+      <x>95</x>
+      <y>290</y>
       <width>101</width>
       <height>20</height>
      </rect>
@@ -509,7 +430,7 @@ color: rgb(240, 240, 240);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>400</y>
+      <y>340</y>
       <width>41</width>
       <height>35</height>
      </rect>
@@ -548,7 +469,7 @@ border-color: rgb(178, 8, 55);</string>
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>400</y>
+      <y>340</y>
       <width>161</width>
       <height>30</height>
      </rect>
@@ -568,6 +489,23 @@ color: rgb(240, 240, 240);</string>
     <property name="geometry">
      <rect>
       <x>59</x>
+      <y>340</y>
+      <width>161</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;Montserrat&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
       <y>400</y>
       <width>161</width>
       <height>35</height>
@@ -581,17 +519,70 @@ color: rgb(240, 240, 240);</string>
      <string/>
     </property>
    </widget>
-   <zorder>frame_5</zorder>
+   <widget class="QFrame" name="frame_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>41</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(178, 8, 55);
+border-color: rgb(178, 8, 55);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>3</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="endIcon.qrc">:/endIcon/icons8-end-button-50.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>410</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;Montserrat&quot;;
+color: rgb(240, 240, 240);</string>
+    </property>
+    <property name="text">
+     <string>Finish Term</string>
+    </property>
+   </widget>
    <zorder>frame_6</zorder>
    <zorder>frame_7</zorder>
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
-   <zorder>label_4</zorder>
    <zorder>label_5</zorder>
    <zorder>label_8</zorder>
    <zorder>frame_3</zorder>
    <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
    <zorder>pushButton_3</zorder>
    <zorder>pushButton_4</zorder>
    <zorder>label_14</zorder>
@@ -602,6 +593,9 @@ color: rgb(240, 240, 240);</string>
    <zorder>frame_9</zorder>
    <zorder>label_15</zorder>
    <zorder>pushButton_6</zorder>
+   <zorder>frame_10</zorder>
+   <zorder>label_10</zorder>
+   <zorder>pushButton_8</zorder>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
@@ -654,10 +648,11 @@ border-color: rgb(178, 8, 55);
   </widget>
  </widget>
  <resources>
-  <include location="classIcon.qrc"/>
-  <include location="icon.qrc"/>
   <include location="pictures.qrc"/>
+  <include location="icon.qrc"/>
   <include location="third-icon-group.qrc"/>
+  <include location="classIcon.qrc"/>
+  <include location="endIcon.qrc"/>
  </resources>
  <connections/>
 </ui>

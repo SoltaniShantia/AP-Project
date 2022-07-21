@@ -15,11 +15,15 @@ public:
     explicit EntereNewPass(QWidget *parent = nullptr);
     ~EntereNewPass();
 
+    void setIndex(int _index);
+
 private slots:
     void on_Confirmbtn_clicked();
 
 private:
     Ui::EntereNewPass *ui;
+
+    int index;
 };
 
 #endif // ENTERENEWPASS_H

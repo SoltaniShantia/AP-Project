@@ -1,12 +1,16 @@
-#include "studentprofile.h"
-#include "ui_studentprofile.h"
 #include <QValidator>
 #include <QMessageBox>
-#include "studentmainmenu.h"
-#include "studentmessages.h"
-#include "studentweeklyschedule.h"
+#include <QRegularExpression>
 
-StudentProfile::StudentProfile(QWidget *parent) :
+#include "studentprofile.h"
+#include "ui_studentprofile.h"
+#include "studentmainmenu.h"
+#include "Auth.h"
+#include "Filemanager.h"
+#include "Md5Hash.h"
+
+
+StudentProfile::StudentProfile(StudentMainMenu * member , QWidget *parent) :
     QWidget(parent),
     ui(new Ui::StudentProfile)
 {
@@ -15,8 +19,6 @@ StudentProfile::StudentProfile(QWidget *parent) :
     this->ui->pushButton_2->setStyleSheet("background-color: transparent");
     this->ui->pushButton_3->setStyleSheet("background-color: transparent");
     this->ui->pushButton_4->setStyleSheet("background-color: transparent");
-    this->ui->pushButton_6->setStyleSheet("background-color:transparent");
-    this->ui->pushButton_7->setStyleSheet("background-color:transparent");
     this->ui->applychng->setStyleSheet("background-color: transparent");
     this->ui->applychng_2->setStyleSheet("background-color: transparent");
     this->ui->chngPass->setStyleSheet("background-color: transparent");
@@ -30,19 +32,25 @@ StudentProfile::StudentProfile(QWidget *parent) :
     this->ui->applychng->setVisible(false);
     this->ui->label_20->setVisible(false);
 
+    this->mainmenu = member;
+    this->ui->label_2->setText("Hi dear "  + mainmenu->get_first_name());
 
-
-    this->ui->nameLine->setText("Shantia");
+    this->ui->nameLine->setText(mainmenu->get_first_name());
     this->ui->nameLine->setDisabled(true);
-    this->ui->lastNameLine->setText("Soltani");
+    this->ui->lastNameLine->setText(mainmenu->get_last_name());
     this->ui->lastNameLine->setDisabled(true);
-    this->ui->NcodeLine->setText("123456789");
+    this->ui->NcodeLine->setText(mainmenu->get_national_code());
     this->ui->NcodeLine->setDisabled(true);
-    this->ui->RoleLine->setText("Admin");
+    this->ui->RoleLine->setText(mainmenu->get_role());
     this->ui->RoleLine->setDisabled(true);
-    this->ui->numberLine->setText("0910 209 8097");
+    this->ui->numberLine->setText(mainmenu->get_phone_number());
     this->ui->numberLine->setDisabled(true);
     this->ui->numberLine->setValidator(new QIntValidator(this));
+
+
+    // added Iranian phone number validator with help of regex :)
+    this->ui->numberLine->setValidator(new QRegularExpressionValidator(QRegularExpression(R"((0|\+98)?([ ]|-|[()]){0,2}9[1|2|3|4]([ ]|-|[()]){0,2}(?:[0-9]([ ]|-|[()]){0,2}){8})"), this));
+
 }
 
 StudentProfile::~StudentProfile()
@@ -71,70 +79,102 @@ void StudentProfile::on_applychng_clicked()
     this->ui->applychng->setVisible(false);
     this->ui->label_20->setVisible(false);
     this->ui->numberLine->setDisabled(true);
+
+    QString newPhoneNumber = ui->numberLine->text();
+
+    int userIndex = Auth::findUser(this->mainmenu->get_username());
+
+    Auth::updateCredential(userIndex, 5, newPhoneNumber);
+
+    QMessageBox* phoneNumberChanged = new QMessageBox(QMessageBox::Icon::Information, "Phone Number Changed", "your phone number changed successfuly", QMessageBox::Button::Ok);
+
+    phoneNumberChanged->show();
+
+    connect(phoneNumberChanged , &QMessageBox::buttonClicked , phoneNumberChanged , &QMessageBox::deleteLater);
+
 }
 
 
 void StudentProfile::on_applychng_2_clicked()
 {
+    FileManager userFile;
+
+    userFile.create();
+
+    userFile.loadData();
+
+    QString oldPassword = ui->lineEdit->text();
+
+    QString newPassword = ui->lineEdit_2->text();
+
+    QString confirmNewPassword = ui->lineEdit_3->text();
+
+    int userIndex = Auth::findUser(this->mainmenu->get_username());
+
+    QVector<QString> parsedUser = userFile.parse(userFile.getRecord(userIndex));
+
+    if(parsedUser.at(1) != QString::fromStdString(md5(oldPassword.toStdString())))
+    {
+        QMessageBox* wrongPassword = new QMessageBox(QMessageBox::Icon::Critical, "Wrong Password", "entered current password doesnt match.", QMessageBox::Button::Ok);
+
+        wrongPassword->show();
+
+        connect(wrongPassword , &QMessageBox::buttonClicked , wrongPassword , &QMessageBox::deleteLater);
+
+        return;
+    }
+
+    if(newPassword != confirmNewPassword)
+    {
+        QMessageBox* wrongPasswordConfirm = new QMessageBox(QMessageBox::Icon::Critical, "Passwords Doesnt Match", "new password and confirm new password doesnt match.", QMessageBox::Button::Ok);
+
+        wrongPasswordConfirm->show();
+
+        connect(wrongPasswordConfirm , &QMessageBox::buttonClicked , wrongPasswordConfirm , &QMessageBox::deleteLater);
+
+        return;
+    }
+
+    Auth::updateCredential(userIndex, 1, newPassword, true);
+
+    QMessageBox* passwordChanged = new QMessageBox(QMessageBox::Icon::Information, "Password Changed", "your password changed successfuly.", QMessageBox::Button::Ok);
+
+    passwordChanged->show();
+
+    connect(passwordChanged , &QMessageBox::buttonClicked , passwordChanged , &QMessageBox::deleteLater);
+
+
     this->ui->applychng_2->setVisible(false);
     this->ui->label_24->setVisible(false);
     this->ui->changePass->setVisible(false);
+
+
 }
 
 
 void StudentProfile::on_backToMenu_clicked()
 {
-    QMessageBox* exit = new QMessageBox(QMessageBox::Warning,"Back to menu","If you do not save the changes, they will not be saved\nDo you want to leave?");
+    QMessageBox* exit = new QMessageBox(QMessageBox::Warning,"Back to menu","Do you want to leave?");
     exit->setStandardButtons(QMessageBox::Yes);
     exit->addButton(QMessageBox::No);
     exit->setDefaultButton(QMessageBox::No);
     exit->show();
     if(exit->exec() == QMessageBox::Yes){
-        StudentMainMenu* smm = new StudentMainMenu;
+        StudentMainMenu* smm = new StudentMainMenu(mainmenu->get_first_name() , mainmenu->get_username() , mainmenu);
         smm->show();
         exit->close();
+        connect(exit ,&QMessageBox::buttonClicked ,exit ,&QMessageBox::deleteLater);
         close();
     }
     else{
         exit->close();
+        connect(exit ,&QMessageBox::buttonClicked ,exit ,&QMessageBox::deleteLater);
     }
 }
 
 
-void StudentProfile::on_pushButton_2_clicked()
+void StudentProfile::on_pushButton_clicked()
 {
-    QMessageBox* exit = new QMessageBox(QMessageBox::Warning,"Go to message","If you do not save the changes, they will not be saved\nDo you want to leave?");
-    exit->setStandardButtons(QMessageBox::Yes);
-    exit->addButton(QMessageBox::No);
-    exit->setDefaultButton(QMessageBox::No);
-    exit->show();
-    if(exit->exec() == QMessageBox::Yes){
-        studentMessages* sm= new studentMessages;
-        sm->show();
-        exit->close();
-        close();
-    }
-    else{
-        exit->close();
-    }
-}
 
-
-void StudentProfile::on_pushButton_3_clicked()
-{
-    QMessageBox* exit = new QMessageBox(QMessageBox::Warning,"Go to weekly shedule","If you do not save the changes, they will not be saved\nDo you want to leave?");
-    exit->setStandardButtons(QMessageBox::Yes);
-    exit->addButton(QMessageBox::No);
-    exit->setDefaultButton(QMessageBox::No);
-    exit->show();
-    if(exit->exec() == QMessageBox::Yes){
-        studentWeeklySchedule* swc = new studentWeeklySchedule;
-        swc->show();
-        exit->close();
-        close();
-    }
-    else{
-        exit->close();
-    }
 }
 

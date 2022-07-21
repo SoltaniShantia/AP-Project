@@ -644,82 +644,6 @@ color: rgb(240, 240, 240);</string>
      <string>Add CLass</string>
     </property>
    </widget>
-   <widget class="QFrame" name="frame_9">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>400</y>
-      <width>41</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(178, 8, 55);
-border-color: rgb(178, 8, 55);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QLabel" name="label_19">
-     <property name="geometry">
-      <rect>
-       <x>5</x>
-       <y>2</y>
-       <width>31</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap resource="icon.qrc">:/icon/information.png</pixmap>
-     </property>
-     <property name="scaledContents">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QLabel" name="label_20">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>400</y>
-      <width>161</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;Montserrat&quot;;
-color: rgb(240, 240, 240);</string>
-    </property>
-    <property name="text">
-     <string>Class Information</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_6">
-    <property name="geometry">
-     <rect>
-      <x>59</x>
-      <y>400</y>
-      <width>161</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;Montserrat&quot;;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <zorder>frame_5</zorder>
    <zorder>frame_6</zorder>
    <zorder>frame_7</zorder>
@@ -737,9 +661,6 @@ color: rgb(240, 240, 240);</string>
    <zorder>label_17</zorder>
    <zorder>label_18</zorder>
    <zorder>pushButton_7</zorder>
-   <zorder>frame_9</zorder>
-   <zorder>label_20</zorder>
-   <zorder>pushButton_6</zorder>
   </widget>
   <widget class="QLabel" name="label_9">
    <property name="geometry">
@@ -765,10 +686,10 @@ color: rgb(240, 240, 240);</string>
   </widget>
  </widget>
  <resources>
-  <include location="classIcon.qrc"/>
   <include location="icon.qrc"/>
-  <include location="arrowIcon.qrc"/>
+  <include location="classIcon.qrc"/>
   <include location="pictures.qrc"/>
+  <include location="arrowIcon.qrc"/>
  </resources>
  <connections/>
 </ui>

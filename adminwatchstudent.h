@@ -4,6 +4,8 @@
 #include <QWidget>
 #include <QGroupBox>
 
+#include"adminmainmenu.h"
+
 namespace Ui {
 class AdminWatchStudent;
 }
@@ -13,7 +15,7 @@ class AdminWatchStudent : public QWidget
     Q_OBJECT
 
 public:
-    explicit AdminWatchStudent(QWidget *parent = nullptr);
+    explicit AdminWatchStudent(AdminMainMenu * member , Class classToShow, QWidget *parent = nullptr);
     ~AdminWatchStudent();
 
 private slots:
@@ -31,9 +33,14 @@ private slots:
 
     void on_backToMenu_clicked();
 
+    void removeStudentUser_clicked(Class thisClass,QString studentusername);
+
 private:
     Ui::AdminWatchStudent *ui;
-    QGroupBox* students();
+
+    QGroupBox* students(QString firstname,QString lastname,QString studentusername ,Class thisClass);
+
+    AdminMainMenu * mainmenu ;
 };
 
 #endif // ADMINWATCHSTUDENT_H

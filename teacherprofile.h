@@ -3,16 +3,20 @@
 
 #include <QWidget>
 
+#include"teachermainmenu.h"
+
 namespace Ui {
 class teacherProfile;
 }
+
+
 
 class teacherProfile : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit teacherProfile(QWidget *parent = nullptr);
+    explicit teacherProfile(TeacherMainMenu * member , QWidget *parent = nullptr);
     ~teacherProfile();
 
 private slots:
@@ -28,14 +32,10 @@ private slots:
 
     void on_pushButton_4_clicked();
 
-    void on_pushButton_2_clicked();
-
-    void on_pushButton_5_clicked();
-
-    void on_pushButton_3_clicked();
-
 private:
     Ui::teacherProfile *ui;
+
+    TeacherMainMenu * mainmenu;
 };
 
 #endif // TEACHERPROFILE_H

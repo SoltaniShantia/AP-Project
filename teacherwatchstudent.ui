@@ -750,7 +750,7 @@ color: rgb(41, 39, 40);</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="TeacherName">
+  <widget class="QLabel" name="ClassName">
    <property name="geometry">
     <rect>
      <x>420</x>
@@ -795,14 +795,14 @@ color: rgb(41, 39, 40);</string>
   <zorder>label_20</zorder>
   <zorder>label_17</zorder>
   <zorder>teacherName</zorder>
-  <zorder>TeacherName</zorder>
+  <zorder>ClassName</zorder>
   <zorder>NumberOfStudent</zorder>
  </widget>
  <resources>
-  <include location="icon.qrc"/>
   <include location="arrowIcon.qrc"/>
-  <include location="second-icon.qrc"/>
   <include location="pictures.qrc"/>
+  <include location="second-icon.qrc"/>
+  <include location="icon.qrc"/>
  </resources>
  <connections/>
 </ui>
